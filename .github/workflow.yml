@@ -7,5 +7,7 @@ jobs:
       - run: echo "Hello, World!"
       - run: echo "This action was triggered by a ${{ github.event_name }} event"
   Building:
+    runs-on: ubuntu-latest
+    steps:
       - run: echo "Building the project"
       - run: echo "Build compelete"
